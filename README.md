@@ -4,7 +4,8 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 
 ![Momai Furniture Banner](./public/icon1.png) <!-- Replace with actual image path or hosted link -->
 ![Momai Furniture Website](./src/images/ss.jpg) <!-- Replace with actual image path or hosted link -->
-![Momai Furniture Visiting Card](./src/images/card.pdf) <!-- Replace with actual image path or hosted link -->
+![Momai Furniture Visiting Card](./src/images/1.png) <!-- Replace with actual image path or hosted link -->
+![Momai Furniture Visiting Card](./src/images/2.png) <!-- Replace with actual image path or hosted link -->
 
 ---
 

@@ -2,11 +2,11 @@
 
 Welcome to **Momai Furniture**, a modern React-based portfolio website built to showcase handcrafted furniture, interior design, and restoration services.
 
-### 💳 Banner & Logo
+### 🎋 Banner & Logo
 ![Momai Furniture Banner](./public/icon1.png) <!-- Replace with actual image path or hosted link -->
 
 ---
-### 💳 Website ScreenShot
+### ⛓️‍💥 Website ScreenShot
 ![Momai Furniture Website](./src/images/ss.jpg) <!-- Replace with actual image path or hosted link -->
 
 ---

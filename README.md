@@ -2,8 +2,15 @@
 
 Welcome to **Momai Furniture**, a modern React-based portfolio website built to showcase handcrafted furniture, interior design, and restoration services.
 
+### 💳 Banner & Logo
 ![Momai Furniture Banner](./public/icon1.png) <!-- Replace with actual image path or hosted link -->
+
+---
+### 💳 Website ScreenShot
 ![Momai Furniture Website](./src/images/ss.jpg) <!-- Replace with actual image path or hosted link -->
+
+---
+### 💳 Visiting Card
 ![Momai Furniture Visiting Card](./src/images/1.png) <!-- Replace with actual image path or hosted link -->
 ![Momai Furniture Visiting Card](./src/images/2.png) <!-- Replace with actual image path or hosted link -->
 
@@ -18,60 +25,59 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 
 
 ## 🛠️🪑 Momai Furniture Website Features
-🖼️ 1. Beautiful Portfolio Gallery
-Displays handcrafted furniture and interior design projects
+    🖼️ 1. Beautiful Portfolio Gallery
+    Displays handcrafted furniture and interior design projects
 
-Supports category filtering:
-✅ Custom Furniture
-✅ Interior Design
-✅ Restoration
+    Supports category filtering:
+    ✅ Custom Furniture
+    ✅ Interior Design
+    ✅ Restoration
 
-Interactive image hover effects and project details
+    Interactive image hover effects and project details
 
-📋 2. Responsive Design
-Fully mobile-friendly and responsive
+    📋 2. Responsive Design
+    Fully mobile-friendly and responsive
 
-Optimized for phones, tablets, and desktops
+    Optimized for phones, tablets, and desktops
 
-Built with Bootstrap 5 for layout consistency
+    Built with Bootstrap 5 for layout consistency
 
-🧰 3. Functional Contact Form
-Users can send messages with:
+    🧰 3. Functional Contact Form
+    Users can send messages with:
 
-Name, Email, Phone
+    Name, Email, Phone
 
-Subject and Message
+    Subject and Message
 
-Form validation (required fields)
+    Form validation (required fields)
 
-Integrates with PHP backend to send email notifications
+    Integrates with PHP backend to send email notifications
 
-🖥️ 4. Modern UI with Clean UX
-Uses Playfair Display and Inter Google Fonts
+    🖥️ 4. Modern UI with Clean UX
+    Uses Playfair Display and Inter Google Fonts
 
-Polished UI with modern color palette (browns, creams, earthy tones)
+    Polished UI with modern color palette (browns, creams, earthy tones)
 
-Smooth section transitions and animation support (e.g., AOS)
+    Smooth section transitions and animation support (e.g., AOS)
 
-🧩 5. Reusable React Components
-Modular architecture using:
+    🧩 5. Reusable React Components
+    Modular architecture using:
 
-<PortfolioSection />
+    "<PortfolioSection />"
+    "<Contact />"
 
-<Contact />
+    Future extensibility for additional sections like blog/testimonials
 
-Future extensibility for additional sections like blog/testimonials
+    📦 6. Easy to Deploy
+    Built using create-react-app
 
-📦 6. Easy to Deploy
-Built using create-react-app
+    Ready for deployment on:
 
-Ready for deployment on:
+    Shared hosting (e.g. Hostinger)
 
-Shared hosting (e.g. Hostinger)
+    Static hosts (Netlify, Vercel)
 
-Static hosts (Netlify, Vercel)
-
-Configurable subdirectory support (e.g., /MomaiCraftman)
+    Configurable subdirectory support (e.g., /MomaiCraftman)
 
 ---
 

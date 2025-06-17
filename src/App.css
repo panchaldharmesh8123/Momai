@@ -1,0 +1,78 @@
+/* Custom Variables */
+:root {
+  --color-brown: #8b4513;
+  --color-brown-light: #a0522d;
+  --color-brown-dark: #6b3000;
+  --color-cream: #f9f5f0;
+}
+
+/* Bootstrap Overrides */
+.bg-brown {
+  background-color: var(--color-brown) !important;
+}
+
+.text-brown {
+  color: var(--color-brown) !important;
+}
+
+.btn-brown {
+  background-color: var(--color-brown);
+  border-color: var(--color-brown);
+  color: white;
+}
+
+.btn-brown:hover,
+.btn-brown:focus {
+  background-color: var(--color-brown-dark);
+  border-color: var(--color-brown-dark);
+  color: white;
+}
+
+.btn-outline-brown {
+  border-color: var(--color-brown);
+  color: var(--color-brown);
+}
+
+.btn-outline-brown:hover,
+.btn-outline-brown:focus {
+  background-color: var(--color-brown);
+  color: white;
+}
+
+/* Custom Styles */
+.hero-section {
+  padding: 5rem 0;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+}
+
+.value-icon {
+  font-size: 2rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 0;
+  }
+}

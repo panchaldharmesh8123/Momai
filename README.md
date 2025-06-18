@@ -30,56 +30,62 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 ## 🛠️🪑 Momai Furniture Website Features
 
 🖼️ 1. Beautiful Portfolio Gallery
- -Displays handcrafted furniture and interior design projects
 
- -Supports category filtering:
- -✅ Custom Furniture
- -✅ Interior Design
- -✅ Restoration
+- Displays handcrafted furniture and interior design projects
 
- -Interactive image hover effects and project details
+- Supports category filtering:
+- ✅ Custom Furniture
+- ✅ Interior Design
+- ✅ Restoration
+
+- Interactive image hover effects and project details
 
 📋 2. Responsive Design
- -Fully mobile-friendly and responsive
 
- -Optimized for phones, tablets, and desktops
+- Fully mobile-friendly and responsive
 
- -Built with Bootstrap 5 for layout consistency
+- Optimized for phones, tablets, and desktops
+
+- Built with Bootstrap 5 for layout consistency
 
 🧰 3. Functional Contact Form
- -Users can send messages with:
 
- -Name, Email, Phone
+- Users can send messages with:
 
- -Subject and Message
+- Name, Email, Phone
 
- -Form validation (required fields)
+- Subject and Message
 
- -Integrates with PHP backend to send email notifications
+- Form validation (required fields)
+
+- Integrates with PHP backend to send email notifications
 
 🖥️ 4. Modern UI with Clean UX
- -Uses Playfair Display and Inter Google Fonts
 
- -Polished UI with modern color palette (browns, creams, earthy tones)
+- Uses Playfair Display and Inter Google Fonts
 
- -Smooth section transitions and animation support (e.g., AOS)
+- Polished UI with modern color palette (browns, creams, earthy tones)
+
+- Smooth section transitions and animation support (e.g., AOS)
 
 🧩 5. Reusable React Components
- -Modular architecture using:
 
- -"<PortfolioSection />"
- -"<Contact />"
+- Modular architecture using:
 
- -Future extensibility for additional sections like blog/testimonials
+- "<PortfolioSection />"
+- "<Contact />"
+
+- Future extensibility for additional sections like blog/testimonials
 
 📦 6. Easy to Deploy
- -Built using create-react-app
 
- -Ready for deployment on:
+- Built using create-react-app
 
- -Static hosts (Netlify, Vercel)
+- Ready for deployment on:
 
- -Configurable subdirectory support (e.g., /MomaiCraftman)
+- Static hosts (Netlify, Vercel)
+
+- Configurable subdirectory support (e.g., /MomaiCraftman)
 
 ---
 

@@ -17,7 +17,7 @@ function FeaturedWorks() {
     },
     {
       id: 3,
-      title: "Vintage Cabinet Restoration",
+      title: "Vintage Room Restoration",
       description: "Restoration",
       image: require("../images/restro.avif"),
     },

@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 
 function Contact() {
+  const navigate = useNavigate();
   const [validated, setValidated] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
@@ -13,13 +15,88 @@ function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: value,
+  //   });
+  // };
+
+  // const handleSubmit = (event) => {
+  //   const form = event.currentTarget;
+  //   event.preventDefault();
+
+  //   if (form.checkValidity() === false) {
+  //     event.stopPropagation();
+  //   } else {
+  //     // Here you would typically send the data to your server
+  //     console.log("Form submitted:", formData);
+  //     alert("Thank you for your message! We will get back to you soon.");
+  //     setFormData({
+  //       name: "",
+  //       email: "",
+  //       phone: "",
+  //       subject: "",
+  //       message: "",
+  //     });
+  //   }
+
+  //   setValidated(true);
+  // };
+  //   const handleSubmit = (event) => {
+  //     const form = event.currentTarget;
+  //     event.preventDefault();
+
+  //     if (form.checkValidity() === false) {
+  //       event.stopPropagation();
+  //     } else {
+  //       fetch("http://localhost:5000/api/send", {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         body: JSON.stringify(formData),
+  //       })
+  //         .then((res) => res.json())
+  //         .then((data) => {
+  //           if (data.success) {
+  //             alert(
+  //               "Thank you for your message🙏! We will get back to you soon."
+  //             );
+
+  //             // whatsappnumber mate
+  //             const whatsappNumber = "+919879661139"; // Replace with your WhatsApp number
+  //             const message = `Hello Momai Furniture,
+  // Name: ${formData.name}
+  // Email: ${formData.email}
+  // Phone: ${formData.phone}
+  // Subject: ${formData.subject}
+  // Message: ${formData.message}`;
+
+  //             const encodedMessage = encodeURIComponent(message);
+  //             window.location.href = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+  //             setFormData({
+  //               name: "",
+  //               email: "",
+  //               phone: "",
+  //               subject: "",
+  //               message: "",
+  //             });
+  //             navigate("/");
+  //           } else {
+  //             alert("Failed to send message.");
+  //           }
+  //         })
+  //         .catch((err) => {
+  //           console.error("Error sending message:", err);
+  //           alert("An error occurred.");
+  //         });
+  //     }
+
+  //     setValidated(true);
+  //   };
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -28,9 +105,27 @@ function Contact() {
     if (form.checkValidity() === false) {
       event.stopPropagation();
     } else {
-      // Here you would typically send the data to your server
-      console.log("Form submitted:", formData);
-      alert("Thank you for your message! We will get back to you soon.");
+      // 👇 Your WhatsApp number (without + or spaces)
+      const whatsappNumber = "919879661139";
+
+      const { name, email, phone, subject, message } = formData;
+
+      const whatsappMessage = `Hello Momai Furniture🙏,
+        Name: ${name}
+        Email: ${email}
+        Phone: ${phone}
+        Subject: ${subject}
+        Message: ${message}`;
+
+      // 👇 Open WhatsApp with pre-filled message
+      window.open(
+        `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+          whatsappMessage
+        )}`,
+        "_blank"
+      );
+
+      // Reset form
       setFormData({
         name: "",
         email: "",
@@ -38,9 +133,20 @@ function Contact() {
         subject: "",
         message: "",
       });
+
+      setValidated(false);
+      navigate("/"); // reset validation
     }
 
     setValidated(true);
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
   };
 
   return (
@@ -227,7 +333,7 @@ function Contact() {
                   </Form.Group>
 
                   <Button variant="brown" type="submit" className="w-100">
-                    Send Message
+                    Please Send Your Details
                   </Button>
                 </Form>
               </Card.Body>

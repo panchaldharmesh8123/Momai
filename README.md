@@ -79,4 +79,25 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 
 ---
 
+## 🔧 Technologies Used
+
+- React 18+
+- React Bootstrap
+- WhatsApp Web API (no server or nodemailer)
+
+---
+
+## 💡 How It Works
+
+1. User fills out the form with:
+   - Name
+   - Email
+   - Phone
+   - Subject
+   - Message
+2. On submit, a `whatsapp://` or `https://wa.me/` link is generated
+3. The browser opens WhatsApp with a pre-filled message ready to send
+
+---
+
 

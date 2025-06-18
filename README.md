@@ -18,7 +18,7 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 
 ## 🚀 Live Demo
 
-[View Website](https://yourdomain.com/MomaiCraftman) <!-- Replace with actual deployed URL -->
+[View Website ⛓️‍💥](https://momaifurnicher.netlify.app/) <!-- Replace with actual deployed URL -->
 
 ---
 
@@ -72,8 +72,6 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
     Built using create-react-app
 
     Ready for deployment on:
-
-    Shared hosting (e.g. Hostinger)
 
     Static hosts (Netlify, Vercel)
 

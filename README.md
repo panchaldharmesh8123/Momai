@@ -3,14 +3,19 @@
 Welcome to **Momai Furniture**, a modern React-based portfolio website built to showcase handcrafted furniture, interior design, and restoration services.
 
 ### 🎋 Banner & Logo
+
 ![Momai Furniture Banner](./public/icon1.png) <!-- Replace with actual image path or hosted link -->
 
 ---
+
 ### ⛓️‍💥 Website ScreenShot
+
 ![Momai Furniture Website](./src/images/ss.jpg) <!-- Replace with actual image path or hosted link -->
 
 ---
+
 ### 💳 Visiting Card
+
 ![Momai Furniture Visiting Card](./src/images/1.png) <!-- Replace with actual image path or hosted link -->
 ![Momai Furniture Visiting Card](./src/images/2.png) <!-- Replace with actual image path or hosted link -->
 
@@ -22,60 +27,59 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 
 ---
 
-
-
 ## 🛠️🪑 Momai Furniture Website Features
-    🖼️ 1. Beautiful Portfolio Gallery
-    Displays handcrafted furniture and interior design projects
 
-    Supports category filtering:
-    ✅ Custom Furniture
-    ✅ Interior Design
-    ✅ Restoration
+🖼️ 1. Beautiful Portfolio Gallery
+Displays handcrafted furniture and interior design projects
 
-    Interactive image hover effects and project details
+Supports category filtering:
+✅ Custom Furniture
+✅ Interior Design
+✅ Restoration
 
-    📋 2. Responsive Design
-    Fully mobile-friendly and responsive
+Interactive image hover effects and project details
 
-    Optimized for phones, tablets, and desktops
+📋 2. Responsive Design
+Fully mobile-friendly and responsive
 
-    Built with Bootstrap 5 for layout consistency
+Optimized for phones, tablets, and desktops
 
-    🧰 3. Functional Contact Form
-    Users can send messages with:
+Built with Bootstrap 5 for layout consistency
 
-    Name, Email, Phone
+🧰 3. Functional Contact Form
+Users can send messages with:
 
-    Subject and Message
+Name, Email, Phone
 
-    Form validation (required fields)
+Subject and Message
 
-    Integrates with PHP backend to send email notifications
+Form validation (required fields)
 
-    🖥️ 4. Modern UI with Clean UX
-    Uses Playfair Display and Inter Google Fonts
+Integrates with PHP backend to send email notifications
 
-    Polished UI with modern color palette (browns, creams, earthy tones)
+🖥️ 4. Modern UI with Clean UX
+Uses Playfair Display and Inter Google Fonts
 
-    Smooth section transitions and animation support (e.g., AOS)
+Polished UI with modern color palette (browns, creams, earthy tones)
 
-    🧩 5. Reusable React Components
-    Modular architecture using:
+Smooth section transitions and animation support (e.g., AOS)
 
-    "<PortfolioSection />"
-    "<Contact />"
+🧩 5. Reusable React Components
+Modular architecture using:
 
-    Future extensibility for additional sections like blog/testimonials
+"<PortfolioSection />"
+"<Contact />"
 
-    📦 6. Easy to Deploy
-    Built using create-react-app
+Future extensibility for additional sections like blog/testimonials
 
-    Ready for deployment on:
+📦 6. Easy to Deploy
+Built using create-react-app
 
-    Static hosts (Netlify, Vercel)
+Ready for deployment on:
 
-    Configurable subdirectory support (e.g., /MomaiCraftman)
+Static hosts (Netlify, Vercel)
+
+Configurable subdirectory support (e.g., /MomaiCraftman)
 
 ---
 
@@ -99,5 +103,3 @@ Welcome to **Momai Furniture**, a modern React-based portfolio website built to 
 3. The browser opens WhatsApp with a pre-filled message ready to send
 
 ---
-
-
